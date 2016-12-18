@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EDA0E131E06659F00BE6299 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA0E121E06659F00BE6299 /* user.swift */; };
 		3EFCB5451E0657A500C527FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB5441E0657A500C527FE /* AppDelegate.swift */; };
 		3EFCB5471E0657A500C527FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB5461E0657A500C527FE /* ViewController.swift */; };
 		3EFCB54A1E0657A500C527FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFCB5481E0657A500C527FE /* Main.storyboard */; };
 		3EFCB54C1E0657A500C527FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EFCB54B1E0657A500C527FE /* Assets.xcassets */; };
 		3EFCB54F1E0657A500C527FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFCB54D1E0657A500C527FE /* LaunchScreen.storyboard */; };
+		3EFCB5571E0657CB00C527FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EFCB5561E0657CB00C527FE /* GoogleService-Info.plist */; };
+		3EFCB5591E065AD500C527FE /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB5581E065AD500C527FE /* SignUpVC.swift */; };
+		3EFCB55B1E065E6D00C527FE /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB55A1E065E6D00C527FE /* homeVC.swift */; };
+		875BD2ECCC21D1B3B0233A13 /* Pods_ConnectMateApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC38DE3471A8A431FBA979ED /* Pods_ConnectMateApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EDA0E121E06659F00BE6299 /* user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 		3EFCB5411E0657A500C527FE /* ConnectMateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectMateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFCB5441E0657A500C527FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EFCB5461E0657A500C527FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,12 @@
 		3EFCB54B1E0657A500C527FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EFCB54E1E0657A500C527FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EFCB5501E0657A500C527FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EFCB5561E0657CB00C527FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3EFCB5581E065AD500C527FE /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		3EFCB55A1E065E6D00C527FE /* homeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
+		94442DA866EF2D2E066D4998 /* Pods-ConnectMateApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectMateApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectMateApp/Pods-ConnectMateApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D443FC5645381B7064ED9076 /* Pods-ConnectMateApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectMateApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectMateApp/Pods-ConnectMateApp.release.xcconfig"; sourceTree = "<group>"; };
+		FC38DE3471A8A431FBA979ED /* Pods_ConnectMateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectMateApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875BD2ECCC21D1B3B0233A13 /* Pods_ConnectMateApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26F3325EA21120539259D2C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94442DA866EF2D2E066D4998 /* Pods-ConnectMateApp.debug.xcconfig */,
+				D443FC5645381B7064ED9076 /* Pods-ConnectMateApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3EDA0E111E06658D00BE6299 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA0E121E06659F00BE6299 /* user.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		3EFCB5381E0657A500C527FE = {
 			isa = PBXGroup;
 			children = (
 				3EFCB5431E0657A500C527FE /* ConnectMateApp */,
 				3EFCB5421E0657A500C527FE /* Products */,
+				26F3325EA21120539259D2C5 /* Pods */,
+				7C3E3C3B50B83A4A69F0A211 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,26 @@
 		3EFCB5431E0657A500C527FE /* ConnectMateApp */ = {
 			isa = PBXGroup;
 			children = (
+				3EDA0E111E06658D00BE6299 /* Models */,
 				3EFCB5441E0657A500C527FE /* AppDelegate.swift */,
+				3EFCB55A1E065E6D00C527FE /* homeVC.swift */,
 				3EFCB5461E0657A500C527FE /* ViewController.swift */,
+				3EFCB5581E065AD500C527FE /* SignUpVC.swift */,
 				3EFCB5481E0657A500C527FE /* Main.storyboard */,
 				3EFCB54B1E0657A500C527FE /* Assets.xcassets */,
 				3EFCB54D1E0657A500C527FE /* LaunchScreen.storyboard */,
+				3EFCB5561E0657CB00C527FE /* GoogleService-Info.plist */,
 				3EFCB5501E0657A500C527FE /* Info.plist */,
 			);
 			path = ConnectMateApp;
+			sourceTree = "<group>";
+		};
+		7C3E3C3B50B83A4A69F0A211 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC38DE3471A8A431FBA979ED /* Pods_ConnectMateApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EFCB5531E0657A500C527FE /* Build configuration list for PBXNativeTarget "ConnectMateApp" */;
 			buildPhases = (
+				6A498AA92576A9A98A09ABA9 /* [CP] Check Pods Manifest.lock */,
 				3EFCB53D1E0657A500C527FE /* Sources */,
 				3EFCB53E1E0657A500C527FE /* Frameworks */,
 				3EFCB53F1E0657A500C527FE /* Resources */,
+				EA848F38A834CB1F39C6E833 /* [CP] Embed Pods Frameworks */,
+				44C68148164D378225C13F27 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EFCB54F1E0657A500C527FE /* LaunchScreen.storyboard in Resources */,
+				3EFCB5571E0657CB00C527FE /* GoogleService-Info.plist in Resources */,
 				3EFCB54C1E0657A500C527FE /* Assets.xcassets in Resources */,
 				3EFCB54A1E0657A500C527FE /* Main.storyboard in Resources */,
 			);
@@ -132,12 +180,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44C68148164D378225C13F27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConnectMateApp/Pods-ConnectMateApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A498AA92576A9A98A09ABA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA848F38A834CB1F39C6E833 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConnectMateApp/Pods-ConnectMateApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3EFCB53D1E0657A500C527FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EDA0E131E06659F00BE6299 /* user.swift in Sources */,
 				3EFCB5471E0657A500C527FE /* ViewController.swift in Sources */,
+				3EFCB55B1E065E6D00C527FE /* homeVC.swift in Sources */,
+				3EFCB5591E065AD500C527FE /* SignUpVC.swift in Sources */,
 				3EFCB5451E0657A500C527FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +356,7 @@
 		};
 		3EFCB5541E0657A500C527FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94442DA866EF2D2E066D4998 /* Pods-ConnectMateApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RAQ8F4J76H;
@@ -270,6 +370,7 @@
 		};
 		3EFCB5551E0657A500C527FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D443FC5645381B7064ED9076 /* Pods-ConnectMateApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RAQ8F4J76H;
@@ -300,6 +401,7 @@
 				3EFCB5551E0657A500C527FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
